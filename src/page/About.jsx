@@ -1,6 +1,7 @@
 import React from "react";
 import Wrapper from "../components/Wrapper";
 import Button from "../components/Button";
+import profileImg from "../assets/image/stickman.png";
 
 const About = () => {
   return (
@@ -9,7 +10,7 @@ const About = () => {
         <div className="z-0 basis-2/5">
           <div className="relative w-auto h-auto">
             <img
-              src="../../public/image/stickman.png"
+              src={profileImg}
               alt=""
               width={250}
               className="z-50"
@@ -56,7 +57,7 @@ const About = () => {
               </tr>
             </table>
             <div className="mt-14 pe-2 h-fit">
-              <Button text="Download CV" href={"https://www.google.com"} />
+              <Button text="Download CV" href={"#"} />
             </div>
           </div>
         </div>

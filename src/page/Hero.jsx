@@ -1,6 +1,7 @@
 import React from "react";
 import Wrapper from "../components/Wrapper";
 import Button from "../components/Button";
+import profileImg from "../assets/image/stickman.png";
 
 const Hero = () => {
   return (
@@ -19,7 +20,7 @@ const Hero = () => {
           </div>
         </div>
         <div className="m-auto border p-3">
-          <img src="../../public/image/stickman.png" alt="" width={300} />
+          <img src={profileImg} alt="" width={300} />
         </div>
       </div>
     </Wrapper>
