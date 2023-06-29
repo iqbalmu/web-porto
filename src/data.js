@@ -1,6 +1,6 @@
 import proj1 from './assets/image/projects/gKeepCloneVue.png'
 import proj2 from './assets/image/projects/reactPortofolio.png'
-import proj3 from './assets/image/projects/rwtJavaFx.png'
+import proj3 from './assets/image/projects/foodCourtPhp.png'
 import proj4 from './assets/image/projects/siskelsmkn1solok.png'
 
 // data projects
@@ -22,8 +22,8 @@ export const projects = [
     {
         id: 3,
         image: proj3,
-        title: "Simple Todo List",
-        stack: "#javascript #css",
+        title: "CRUD PHP Native + Volt Template ",
+        stack: "#php #css #bootstrap #volt",
         link: "https:\\google.com"
     },
     {

@@ -22,7 +22,7 @@ const Works = () => {
           ))}
         </div>
         <div className="text-center h-max mt-20 flex justify-center bottom-0">
-          <Button text={"view more"} href={""} />
+          <Button text={"view more"} href={"https://github.com/iqbalmu?tab=repositories"} />
         </div>
       </div>
     </Wrapper>
